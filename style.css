@@ -30,7 +30,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -58,9 +58,16 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  color: white;  
+  text-shadow: 1px 1px 2px black;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
+}
+
+.hero-image p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .hero-image p {
@@ -171,7 +178,7 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: #163BAE;
   color: #ffffff;
 }
 
