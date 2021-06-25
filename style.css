@@ -8,7 +8,7 @@ body {
 }
 
 .conteiner {
-	max-width: 928px;
+	max-width: 80%;
 	margin: 0 auto;
 	padding: 0 16px;
 }
@@ -20,14 +20,14 @@ body {
 	text-align: right;
 }
 
+.header-page img {
+	max-width: 3%;
+}
+
 .email {
-	margin-left: 56px;
+	margin-left: 5px;
 	color: white;
 	text-decoration: none;
-	padding-left: 30px;
-  	background-image: url("img/icon-email.svg");
-	background-repeat: no-repeat;
-	background-position: left;
 }
 
 .greeting .conteiner {
@@ -113,10 +113,14 @@ body {
 }
 
 .footer-page {
-	padding: 40px 0;
+	padding: 20px 0;
 	background-color: #3376A3;
 	color: #ffffff;	
 	text-align: right;
+}
+
+.footer-page img {
+	max-width: 3%;
 }
 
 .footer-page p {
@@ -125,7 +129,7 @@ body {
 }
 
 .footer-page a {
-	margin-left: 56px;
+	margin-left: 5px;
 	color: inherit;
 	text-decoration: none;
 	background-repeat: no-repeat;
