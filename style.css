@@ -14,7 +14,8 @@ body {
 
 .page-header,
 .page-footer {
-  text-align: right;
+	max-width: 1408px;
+	text-align: right;
 }
 
 .page-footer p {
@@ -28,14 +29,17 @@ header, footer {
 	padding: 20px;
 }
 
-.email {
+.email a {
+	margin-left: 56px;
 	color: white;
 	text-decoration: none;
-	text-align: right;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.email {
 	padding-left: 30px;
   	background-image: url("img/icon-email-header.svg");
-	background-repeat: no-repeat;
-  	background-position: left;	
 }
 
 .greeting .conteiner {
@@ -59,33 +63,20 @@ header, footer {
 	font-weight: 400;
 }
 
-.triangle2 {
-	clear: both;
-	width: 0; 
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 100px solid #3376A3;
-}
-
 .photo-me {
 	max-width: 250px;
 	float: left;
 	margin-right: 30px;
 }
 
-
-.portfolio .conteiner{
-	width: 600px;
+.portfolio {
 	clear: both;
-	text-align: center;
 	padding: 70px 0;
 }
 
 .slides {
-    width: 500px;
-    height: 300px;
-	margin: 0 auto;
+    min-width: 500px;
+    min-height: 300px;
 }
  
 .btnLeftDE {
