@@ -8,9 +8,8 @@ body {
 }
 
 .conteiner {
-	max-width: 80%;
+	max-width: 928px;
 	margin: 0 auto;
-	padding: 0 16px;
 }
 
 .header-page {
